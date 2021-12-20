@@ -1,6 +1,7 @@
 import React from 'react';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import "./testimonialAnimation.scss"
 
 export default function SimpleSlider() {
   const TestimonilContent = [
@@ -39,7 +40,7 @@ export default function SimpleSlider() {
       delayAnimation: '200',
     },
     {
-      Name: 'JLSM',
+      Name: 'JW',
       desc: `The Strategist`,
       list: [
         'Invested in 50 over crypto projects',
@@ -62,7 +63,7 @@ export default function SimpleSlider() {
       delayAnimation: '400',
     },
     {
-      Name: 'LESLIE',
+      Name: 'LES',
       desc: `The Terraformer`,
       list: [
         'Early bitcoin investor',
@@ -76,7 +77,7 @@ export default function SimpleSlider() {
   ];
 
   return (
-    <div className="testimonial-wrapper">
+    <div className="testimonial-wrapper testimonials-grid">
       {TestimonilContent.map((val, i) => (
         <div key={i} data-aos="fade-up" data-aos-duration="1200" data-aos-delay={val.delayAnimation}>
           <div className="testimonial-01 media">

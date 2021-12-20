@@ -2,7 +2,6 @@ import React from 'react';
 import Testimonials from '../testimonial/TestimonialAnimation';
 import Services from '../service/ServiceAnimation';
 import Awards from '../award/AwardsAnimation';
-import './AboutAnimation.scss';
 
 const About = () => {
   return (
@@ -92,7 +91,7 @@ const About = () => {
             <h3>Team & Advisors</h3>
           </div>
 
-          <Testimonials />
+            <Testimonials />
           {/* End Testimonaial */}
         </div>
       </section>
