@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import Modal from "react-modal";
-import Contact from "../../components/contact/Contact";
+import React, { useState } from 'react';
+import Modal from 'react-modal';
+import Contact from '../../components/contact/Contact';
 
-Modal.setAppElement("#root");
+Modal.setAppElement('#root');
 
 const News = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,17 +29,14 @@ const News = () => {
         <div className="col-md-6 m-15px-tb">
           <div className="blog-grid" onClick={toggleModalOne}>
             <div className="blog-img">
-              <a>
+              <a href="/">
                 <img src={`img/blog/blog-4.jpg`} alt="blog post"></img>
               </a>
             </div>
             <div className="blog-info">
               <div className="meta">29/FEB/2020 - BY ALEX</div>
               <h6>
-                <a>
-                  Five Solid Evidences Attending Design Is Good For Your Career
-                  Development.
-                </a>
+                <a href="/">Five Solid Evidences Attending Design Is Good For Your Career Development.</a>
               </h6>
             </div>
           </div>
@@ -49,17 +46,14 @@ const News = () => {
         <div className="col-md-6 m-15px-tb">
           <div className="blog-grid" onClick={toggleModalTwo}>
             <div className="blog-img">
-              <a>
+              <a href="/">
                 <img src={`img/blog/blog-2.jpg`} alt="blog post"></img>
               </a>
             </div>
             <div className="blog-info">
               <div className="meta">05/JAN/2020 - BY SMITH</div>
               <h6>
-                <a>
-                  Ten Mind-Blowing Reasons Why Design Is Using This Technique
-                  For Exposure.
-                </a>
+                <a href="/">Ten Mind-Blowing Reasons Why Design Is Using This Technique For Exposure.</a>
               </h6>
             </div>
           </div>
@@ -69,7 +63,7 @@ const News = () => {
         <div className="col-md-6 m-15px-tb">
           <div className="blog-grid" onClick={toggleModalThree}>
             <div className="blog-img">
-              <a>
+              <a href="/">
                 <img src={`img/blog/blog-3.jpg`} alt="blog post"></img>
               </a>
             </div>
@@ -77,9 +71,7 @@ const News = () => {
             <div className="blog-info">
               <div className="meta">12/AUG/2020 - BY RIO</div>
               <h6>
-                <a>
-                  I Will Tell You The Truth About Design In The Next 60 Seconds.
-                </a>
+                <a href="/">I Will Tell You The Truth About Design In The Next 60 Seconds.</a>
               </h6>
             </div>
           </div>
@@ -89,7 +81,7 @@ const News = () => {
         <div className="col-md-6 m-15px-tb">
           <div className="blog-grid" onClick={toggleModalFour}>
             <div className="blog-img">
-              <a>
+              <a href="/">
                 <img src={`img/blog/blog-1.jpg`} alt="blog post"></img>
               </a>
             </div>
@@ -97,10 +89,7 @@ const News = () => {
             <div className="blog-info">
               <div className="meta">22/JUN/2020 - BY SVEIL</div>
               <h6>
-                <a>
-                  What You Know About Design And What You Don't Know About
-                  Design.
-                </a>
+                <a href="/">What You Know About Design And What You Don't Know About Design.</a>
               </h6>
             </div>
           </div>
@@ -116,8 +105,7 @@ const News = () => {
         contentLabel="My dialog"
         className="custom-modal"
         overlayClassName="custom-overlay"
-        closeTimeoutMS={500}
-      >
+        closeTimeoutMS={500}>
         <div>
           <button className="close-modal" onClick={toggleModalOne}>
             <img src="/img/cancel.svg" alt="close icon" />
@@ -133,9 +121,7 @@ const News = () => {
                 {/* End blog-img */}
                 <article className="article">
                   <div className="article-title">
-                    <h2>
-                      They Now Bade Farewell To The Kind But Unseen People
-                    </h2>
+                    <h2>They Now Bade Farewell To The Kind But Unseen People</h2>
                     <div className="media">
                       <div className="avatar">
                         <img src="img/testimonial/team-1.jpg" alt="thumbnail" />
@@ -150,48 +136,37 @@ const News = () => {
 
                   <div className="article-content">
                     <p>
-                      Aenean eleifend ante maecenas pulvinar montes lorem et
-                      pede dis dolor pretium donec dictum. Vici consequat justo
-                      enim. Venenatis eget adipiscing luctus lorem. Adipiscing
-                      veni amet luctus enim sem libero tellus viverra venenatis
-                      aliquam. Commodo natoque quam pulvinar elit.
+                      Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici
+                      consequat justo enim. Venenatis eget adipiscing luctus lorem. Adipiscing veni amet luctus enim sem
+                      libero tellus viverra venenatis aliquam. Commodo natoque quam pulvinar elit.
                     </p>
                     <p>
-                      Eget aenean tellus venenatis. Donec odio tempus. Felis
-                      arcu pretium metus nullam quam aenean sociis quis sem
-                      neque vici libero. Venenatis nullam fringilla pretium
-                      magnis aliquam nunc vulputate integer augue ultricies
-                      cras. Eget viverra feugiat cras ut. Sit natoque montes
-                      tempus ligula eget vitae pede rhoncus maecenas
-                      consectetuer commodo condimentum aenean.
+                      Eget aenean tellus venenatis. Donec odio tempus. Felis arcu pretium metus nullam quam aenean
+                      sociis quis sem neque vici libero. Venenatis nullam fringilla pretium magnis aliquam nunc
+                      vulputate integer augue ultricies cras. Eget viverra feugiat cras ut. Sit natoque montes tempus
+                      ligula eget vitae pede rhoncus maecenas consectetuer commodo condimentum aenean.
                     </p>
                     <h4>What are my payment options?</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat.
                     </p>
                     <blockquote>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam.
                       </p>
                       <p className="blockquote-footer">
-                        Someone famous in{" "}
-                        <cite title="Source Title">Dick Grayson</cite>
+                        Someone famous in <cite title="Source Title">Dick Grayson</cite>
                       </p>
                     </blockquote>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                      in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                   </div>
                   {/* End article content */}
@@ -228,8 +203,7 @@ const News = () => {
         contentLabel="My dialog"
         className="custom-modal"
         overlayClassName="custom-overlay"
-        closeTimeoutMS={500}
-      >
+        closeTimeoutMS={500}>
         <div>
           <button className="close-modal" onClick={toggleModalTwo}>
             <img src="/img/cancel.svg" alt="close icon" />
@@ -245,10 +219,7 @@ const News = () => {
                 {/* End blog-img */}
                 <article className="article">
                   <div className="article-title">
-                    <h2>
-                      Ten Mind-Blowing Reasons Why Design Is Using This
-                      Technique For Exposure.
-                    </h2>
+                    <h2>Ten Mind-Blowing Reasons Why Design Is Using This Technique For Exposure.</h2>
                     <div className="media">
                       <div className="avatar">
                         <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
@@ -263,48 +234,37 @@ const News = () => {
 
                   <div className="article-content">
                     <p>
-                      Aenean eleifend ante maecenas pulvinar montes lorem et
-                      pede dis dolor pretium donec dictum. Vici consequat justo
-                      enim. Venenatis eget adipiscing luctus lorem. Adipiscing
-                      veni amet luctus enim sem libero tellus viverra venenatis
-                      aliquam. Commodo natoque quam pulvinar elit.
+                      Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici
+                      consequat justo enim. Venenatis eget adipiscing luctus lorem. Adipiscing veni amet luctus enim sem
+                      libero tellus viverra venenatis aliquam. Commodo natoque quam pulvinar elit.
                     </p>
                     <p>
-                      Eget aenean tellus venenatis. Donec odio tempus. Felis
-                      arcu pretium metus nullam quam aenean sociis quis sem
-                      neque vici libero. Venenatis nullam fringilla pretium
-                      magnis aliquam nunc vulputate integer augue ultricies
-                      cras. Eget viverra feugiat cras ut. Sit natoque montes
-                      tempus ligula eget vitae pede rhoncus maecenas
-                      consectetuer commodo condimentum aenean.
+                      Eget aenean tellus venenatis. Donec odio tempus. Felis arcu pretium metus nullam quam aenean
+                      sociis quis sem neque vici libero. Venenatis nullam fringilla pretium magnis aliquam nunc
+                      vulputate integer augue ultricies cras. Eget viverra feugiat cras ut. Sit natoque montes tempus
+                      ligula eget vitae pede rhoncus maecenas consectetuer commodo condimentum aenean.
                     </p>
                     <h4>What are my payment options?</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat.
                     </p>
                     <blockquote>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam.
                       </p>
                       <p className="blockquote-footer">
-                        Someone famous in{" "}
-                        <cite title="Source Title">Dick Grayson</cite>
+                        Someone famous in <cite title="Source Title">Dick Grayson</cite>
                       </p>
                     </blockquote>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                      in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                   </div>
                   {/* End article content */}
@@ -341,8 +301,7 @@ const News = () => {
         contentLabel="My dialog"
         className="custom-modal"
         overlayClassName="custom-overlay"
-        closeTimeoutMS={500}
-      >
+        closeTimeoutMS={500}>
         <div>
           <button className="close-modal" onClick={toggleModalThree}>
             <img src="/img/cancel.svg" alt="close icon" />
@@ -358,10 +317,7 @@ const News = () => {
                 {/* End blog-img */}
                 <article className="article">
                   <div className="article-title">
-                    <h2>
-                      I Will Tell You The Truth About Design In The Next 60
-                      Seconds.
-                    </h2>
+                    <h2>I Will Tell You The Truth About Design In The Next 60 Seconds.</h2>
                     <div className="media">
                       <div className="avatar">
                         <img src="img/testimonial/team-3.jpg" alt="thumbnail" />
@@ -376,48 +332,37 @@ const News = () => {
 
                   <div className="article-content">
                     <p>
-                      Aenean eleifend ante maecenas pulvinar montes lorem et
-                      pede dis dolor pretium donec dictum. Vici consequat justo
-                      enim. Venenatis eget adipiscing luctus lorem. Adipiscing
-                      veni amet luctus enim sem libero tellus viverra venenatis
-                      aliquam. Commodo natoque quam pulvinar elit.
+                      Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici
+                      consequat justo enim. Venenatis eget adipiscing luctus lorem. Adipiscing veni amet luctus enim sem
+                      libero tellus viverra venenatis aliquam. Commodo natoque quam pulvinar elit.
                     </p>
                     <p>
-                      Eget aenean tellus venenatis. Donec odio tempus. Felis
-                      arcu pretium metus nullam quam aenean sociis quis sem
-                      neque vici libero. Venenatis nullam fringilla pretium
-                      magnis aliquam nunc vulputate integer augue ultricies
-                      cras. Eget viverra feugiat cras ut. Sit natoque montes
-                      tempus ligula eget vitae pede rhoncus maecenas
-                      consectetuer commodo condimentum aenean.
+                      Eget aenean tellus venenatis. Donec odio tempus. Felis arcu pretium metus nullam quam aenean
+                      sociis quis sem neque vici libero. Venenatis nullam fringilla pretium magnis aliquam nunc
+                      vulputate integer augue ultricies cras. Eget viverra feugiat cras ut. Sit natoque montes tempus
+                      ligula eget vitae pede rhoncus maecenas consectetuer commodo condimentum aenean.
                     </p>
                     <h4>What are my payment options?</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat.
                     </p>
                     <blockquote>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam.
                       </p>
                       <p className="blockquote-footer">
-                        Someone famous in{" "}
-                        <cite title="Source Title">Dick Grayson</cite>
+                        Someone famous in <cite title="Source Title">Dick Grayson</cite>
                       </p>
                     </blockquote>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                      in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                   </div>
                   {/* End article content */}
@@ -454,8 +399,7 @@ const News = () => {
         contentLabel="My dialog"
         className="custom-modal"
         overlayClassName="custom-overlay"
-        closeTimeoutMS={500}
-      >
+        closeTimeoutMS={500}>
         <div>
           <button className="close-modal" onClick={toggleModalFour}>
             <img src="/img/cancel.svg" alt="close icon" />
@@ -471,9 +415,7 @@ const News = () => {
                 {/* End blog-img */}
                 <article className="article">
                   <div className="article-title">
-                    <h2>
-                      They Now Bade Farewell To The Kind But Unseen People
-                    </h2>
+                    <h2>They Now Bade Farewell To The Kind But Unseen People</h2>
                     <div className="media">
                       <div className="avatar">
                         <img src="img/testimonial/team-4.jpg" alt="thumbnail" />
@@ -488,48 +430,37 @@ const News = () => {
 
                   <div className="article-content">
                     <p>
-                      Aenean eleifend ante maecenas pulvinar montes lorem et
-                      pede dis dolor pretium donec dictum. Vici consequat justo
-                      enim. Venenatis eget adipiscing luctus lorem. Adipiscing
-                      veni amet luctus enim sem libero tellus viverra venenatis
-                      aliquam. Commodo natoque quam pulvinar elit.
+                      Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici
+                      consequat justo enim. Venenatis eget adipiscing luctus lorem. Adipiscing veni amet luctus enim sem
+                      libero tellus viverra venenatis aliquam. Commodo natoque quam pulvinar elit.
                     </p>
                     <p>
-                      Eget aenean tellus venenatis. Donec odio tempus. Felis
-                      arcu pretium metus nullam quam aenean sociis quis sem
-                      neque vici libero. Venenatis nullam fringilla pretium
-                      magnis aliquam nunc vulputate integer augue ultricies
-                      cras. Eget viverra feugiat cras ut. Sit natoque montes
-                      tempus ligula eget vitae pede rhoncus maecenas
-                      consectetuer commodo condimentum aenean.
+                      Eget aenean tellus venenatis. Donec odio tempus. Felis arcu pretium metus nullam quam aenean
+                      sociis quis sem neque vici libero. Venenatis nullam fringilla pretium magnis aliquam nunc
+                      vulputate integer augue ultricies cras. Eget viverra feugiat cras ut. Sit natoque montes tempus
+                      ligula eget vitae pede rhoncus maecenas consectetuer commodo condimentum aenean.
                     </p>
                     <h4>What are my payment options?</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat.
                     </p>
                     <blockquote>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam.
                       </p>
                       <p className="blockquote-footer">
-                        Someone famous in{" "}
-                        <cite title="Source Title">Dick Grayson</cite>
+                        Someone famous in <cite title="Source Title">Dick Grayson</cite>
                       </p>
                     </blockquote>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                      in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                   </div>
                   {/* End article content */}

@@ -30,10 +30,10 @@ const Slider = () => {
           <div className="hb-lang">
             <ul className="nav">
               <li className="active">
-                <a href="#">EN</a>
+                <a href="/">EN</a>
               </li>
               <li>
-                <a href="#">FR</a>
+                <a href="/">FR</a>
               </li>
             </ul>
           </div>
