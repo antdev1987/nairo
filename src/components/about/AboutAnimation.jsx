@@ -1,8 +1,7 @@
-import React from "react";
-import Social from "../Social";
-import Testimonials from "../testimonial/TestimonialAnimation";
-import Services from "../service/ServiceAnimation";
-import Awards from "../award/AwardsAnimation";
+import React from 'react';
+import Testimonials from '../testimonial/TestimonialAnimation';
+import Services from '../service/ServiceAnimation';
+import Awards from '../award/AwardsAnimation';
 
 const About = () => {
   return (
@@ -10,99 +9,38 @@ const About = () => {
       <section id="about" className="section theme-light dark-bg">
         <div className="container">
           <div className="row align-items-center justify-content-center">
-            <div
-              className="col-md-6 col-lg-4"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
+            <div className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="1200">
               <div className="about-me">
                 <div className="img">
                   <div className="img-in">
-                    <img src="img/about/about-me.jpg" alt="about" />
+                    <img src="img/about/MIRL.jpg" alt="about" />
                   </div>
-
-                  <Social />
-
-                  {/* End social icon */}
                 </div>
                 {/* End img */}
-                <div className="info">
-                  <p>Ux/Ui Designer</p>
-                  <h3>Nairobi Gadot</h3>
-                </div>
-                {/* End info */}
               </div>
               {/* End about-me */}
             </div>
             {/* End col */}
 
-            <div
-              className="col-lg-7 ml-auto"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-delay="200"
-            >
+            <div className="col-lg-7 ml-auto" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
               <div className="about-info">
                 <div className="title">
-                  <h3>Biography</h3>
+                  <h3>Genesis MIRL - S/S 2022</h3>
                 </div>
                 <div className="about-text">
                   <p>
-                    I'm a Freelancer Front-end Developer with over 3 years of
-                    experience. I'm from San Francisco. I code and create web
-                    elements for amazing people around the world. I like work
-                    with new people. New people new Experiences.
+                    MIRL™ pioneers the FashionFi movement that infuses the fashion industry with the advent of NFTs and
+                    DeFi.
                   </p>
                   <p>
-                    I'm a Freelancer Front-end Developer with over 3 years of
-                    experience. I'm from San Francisco. I code and create web
-                    elements for amazing people around the world. I like work
-                    with new people. New people new Experiences.
+                    We are a brand with an ethos of the future, representing a new world culture that connects
+                    like-minded individuals.
                   </p>
-                </div>
-                <div className="info-list">
-                  <div className="row">
-                    <div className="col-sm-6">
-                      <ul>
-                        <li>
-                          <label>Name: </label>
-                          <span>Nairobi Gadot</span>
-                        </li>
-                        <li>
-                          <label>Birthday: </label>
-                          <span>4th April 1994</span>
-                        </li>
-                        <li>
-                          <label>Age: </label>
-                          <span>26 years</span>
-                        </li>
-                        <li>
-                          <label>Address: </label>
-                          <span>San Francisco</span>
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="col-sm-6">
-                      <ul>
-                        <li>
-                          <label>Phone: </label>
-                          <span>(+38) 469 2344 2364</span>
-                        </li>
-                        <li>
-                          <label>Email: </label>
-                          <span>info@domainname.com</span>
-                        </li>
-                        <li>
-                          <label>Skype: </label>
-                          <span>nairob.40</span>
-                        </li>
-                        <li>
-                          <label>Freelance: </label>
-                          <span>Available</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
+                  <p>
+                    All MIRL™ will unlock exclusive access to seasonal physical wearables and privileges through our IRL
+                    partners.
+                  </p>
+                  <p>We want you to represent your digital presence, IRL.</p>
                 </div>
               </div>
             </div>
@@ -114,11 +52,8 @@ const About = () => {
           <div
             className="separated"
             style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/border-dark.png"
-              })`,
-            }}
-          ></div>
+              backgroundImage: `url(${process.env.PUBLIC_URL + 'img/border-dark.png'})`,
+            }}></div>
 
           {/* End separated */}
           <div className="title">
@@ -133,11 +68,8 @@ const About = () => {
           <div
             className="separated"
             style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/border-dark.png"
-              })`,
-            }}
-          ></div>
+              backgroundImage: `url(${process.env.PUBLIC_URL + 'img/border-dark.png'})`,
+            }}></div>
           {/* End separated */}
 
           <div className="title">
@@ -151,11 +83,8 @@ const About = () => {
           <div
             className="separated"
             style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/border-dark.png"
-              })`,
-            }}
-          ></div>
+              backgroundImage: `url(${process.env.PUBLIC_URL + 'img/border-dark.png'})`,
+            }}></div>
           {/* End separated */}
 
           <div className="title">

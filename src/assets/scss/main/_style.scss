@@ -1,3 +1,5 @@
+$px-theme: #50336D;
+
 /* Section
 ---------------------*/
 .section {
@@ -67,8 +69,6 @@
   background-repeat: repeat-x;
   background-size: auto 6px;
   background-position: center;
-  .theme-light & {
-  }
   @include down-md {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -328,7 +328,7 @@
     max-height: 358px;
     margin: auto;
     overflow: hidden;
-    border: 5px solid $px-white;
+    border: 5px solid $px-theme;
     .theme-light & {
       border: 5px solid $px-theme;
     }

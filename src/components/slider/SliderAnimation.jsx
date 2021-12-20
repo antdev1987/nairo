@@ -28,7 +28,7 @@ const Slider = () => {
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/mirlnft">
+                <a href="tc">
                   <i class="fab fa-discord fa-2x"></i>
                 </a>
               </li>
