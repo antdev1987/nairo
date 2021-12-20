@@ -1,18 +1,12 @@
-import React from "react";
-import TextLoop from "react-text-loop";
-
-const conctInfo = {
-  phone: "+04 6545-9535-6515",
-  email: " nairobi-designer@domain.com",
-};
+import React from 'react';
 
 const sliderContent = {
-  name: "Nairobi Gadot",
-  designation: "Full-stack Developer",
-  description: `I design and develop services for customers of all sizes,
-  specializing in creating stylish, modern websites, web
-  services and online stores.`,
-  btnText: " Donwload CV",
+  welcome: (
+    <>
+      WELCOME <br></br> TO MIRL
+    </>
+  ),
+  description: `MIRL is the first decentralised fashion brand born in the metaverse.`,
 };
 
 const Slider = () => {
@@ -21,19 +15,22 @@ const Slider = () => {
       {/*  Home Banner */}
       <section id="home" className="home-banner">
         <div className="hb-top-fixed d-flex">
-          <div className="hb-info">
-            <a href="tel:+04 6545-9535-6515">{conctInfo.phone}</a>
-            <a href="mailto:mail%20to:ibthemes21@gmail.com,com">
-              {conctInfo.email}
-            </a>
-          </div>
           <div className="hb-lang">
             <ul className="nav">
-              <li className="active">
-                <a href="/">EN</a>
+              <li>
+                <a href="https://www.instagram.com/mirlnft/">
+                  <i class="fab fa-instagram fa-2x"></i>
+                </a>
               </li>
               <li>
-                <a href="/">FR</a>
+                <a href="https://twitter.com/mirlnft">
+                  <i class="fab fa-twitter fa-2x"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/mirlnft">
+                  <i class="fab fa-discord fa-2x"></i>
+                </a>
               </li>
             </ul>
           </div>
@@ -45,50 +42,15 @@ const Slider = () => {
             <div className="col-lg-7">
               <div className="type-box">
                 <h6 data-aos="fade-up" data-aos-duration="1200">
-                  Hello, My name is
+                  Hello...
                 </h6>
-                <h1
-                  className="font-alt"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                  data-aos-delay="100"
-                >
-                  {sliderContent.name}
+                <h1 className="font-alt" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+                  {sliderContent.welcome}
                 </h1>
-                <div
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                  data-aos-delay="200"
-                >
-                  <TextLoop>
-                    <p className="loop-text lead">Full-stack Developer</p>
-                    <p className="loop-text lead"> UI/UX Designer</p>
-                    <p className="loop-text lead"> App Developer</p>
-                  </TextLoop>
-                </div>
 
-                <p
-                  className="desc"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                  data-aos-delay="300"
-                >
+                <p className="desc" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
                   {sliderContent.description}
                 </p>
-                <div
-                  className="mt-4"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                  data-aos-delay="400"
-                >
-                  <a
-                    className="px-btn px-btn-white"
-                    href="img/resume.png"
-                    download
-                  >
-                    {sliderContent.btnText}
-                  </a>
-                </div>
               </div>
             </div>
           </div>
@@ -97,11 +59,8 @@ const Slider = () => {
         <div
           className="hb-me"
           style={{
-            backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/slider/home-banner.png"
-            })`,
-          }}
-        ></div>
+            background: `url('img/slider/Home Banner_2.jpg') bottom center / cover`,
+          }}></div>
       </section>
 
       {/* End Home Banner  */}
