@@ -6,7 +6,11 @@ const sliderContent = {
       WELCOME <br></br> TO MIRL
     </>
   ),
-  description: `MIRL is the first decentralised fashion brand born in the metaverse.`,
+  description: (
+    <>
+      MIRL is the first decentralised fashion <br></br> brand born in the metaverse.
+    </>
+  ),
 };
 
 const Slider = () => {
@@ -41,14 +45,19 @@ const Slider = () => {
           <div className="row full-screen align-items-center">
             <div className="col-lg-7">
               <div className="type-box">
-                <h6 data-aos="fade-up" data-aos-duration="1200">
+                <h6 className="font-size-medium" data-aos="fade-up" data-aos-duration="1200">
                   Hello...
                 </h6>
                 <h1 className="font-alt" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
                   {sliderContent.welcome}
                 </h1>
 
-                <p className="desc" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
+                <p
+                  className="font-size-medium"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  data-aos-delay="300"
+                  style={{ fontSize: '20px' }}>
                   {sliderContent.description}
                 </p>
               </div>

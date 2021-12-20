@@ -20,6 +20,14 @@ body {
   font-family: $px-font-alt;
 }
 
+.font-size-regular {
+  font-weight: 400;
+}
+
+.font-size-medium {
+  font-weight: 500;
+}
+
 img {
   max-width: 100%;
 }
@@ -60,7 +68,7 @@ mark {
     z-index: 2;
   }
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     top: 0;
@@ -185,7 +193,7 @@ a {
     width: 64px;
     height: 64px;
     &:after {
-      content: " ";
+      content: ' ';
       display: block;
       width: 46px;
       height: 46px;
