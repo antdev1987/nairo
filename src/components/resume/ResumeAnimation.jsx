@@ -1,5 +1,5 @@
 import React from 'react';
-import Skills from '../skills/Skills';
+// import Skills from '../skills/Skills';
 
 const resumeContent = [
   {
@@ -43,23 +43,23 @@ const resumeContent = [
   },
 ];
 
-const educatonContent = [
-  {
-    passingYear: '2018-2020',
-    degreeTitle: 'Ph.D in Horriblensess',
-    instituteName: 'University Of Evil Doing',
-  },
-  {
-    passingYear: '2013-2016',
-    degreeTitle: 'Bsc. in Computer Science',
-    instituteName: 'World University',
-  },
-  {
-    passingYear: '2010-2012',
-    degreeTitle: 'Graphic Artist Training ',
-    instituteName: 'Graphic Master Institute',
-  },
-];
+// const educatonContent = [
+//   {
+//     passingYear: '2018-2020',
+//     degreeTitle: 'Ph.D in Horriblensess',
+//     instituteName: 'University Of Evil Doing',
+//   },
+//   {
+//     passingYear: '2013-2016',
+//     degreeTitle: 'Bsc. in Computer Science',
+//     instituteName: 'World University',
+//   },
+//   {
+//     passingYear: '2010-2012',
+//     degreeTitle: 'Graphic Artist Training ',
+//     instituteName: 'Graphic Master Institute',
+//   },
+// ];
 
 const Resume = () => {
   return (
@@ -98,18 +98,18 @@ const Resume = () => {
           </div>
 
           {/* separated */}
-          <div
+          {/* <div
             className="separated"
             style={{
               backgroundImage: `url(${process.env.PUBLIC_URL + 'img/border-dark.png'})`,
-            }}></div>
+            }}></div> */}
           {/* End separated */}
 
-          <div className="title">
+          {/* <div className="title">
             <h3>Education & Skills</h3>{' '}
-          </div>
+          </div> */}
 
-          <div className="row align-items-center">
+          {/* <div className="row align-items-center">
             <div className="col-lg-4 m-15px-tb" data-aos="fade-up" data-aos-duration="1200">
               <ul className="aducation-box">
                 {educatonContent.map((val, i) => (
@@ -120,18 +120,18 @@ const Resume = () => {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
             {/* End .col */}
 
-            <div
+            {/* <div
               className="col-lg-7 ml-auto m-15px-tb"
               data-aos="fade-up"
               data-aos-duration="1200"
               data-aos-delay="200">
               <Skills />
-            </div>
+            </div> */}
             {/* End .col */}
-          </div>
+          {/* </div> */}
         </div>
       </section>
     </>

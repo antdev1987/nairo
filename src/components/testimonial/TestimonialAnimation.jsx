@@ -1,7 +1,7 @@
 import React from 'react';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import "./testimonialAnimation.scss"
+import './testimonialAnimation.scss';
 
 export default function SimpleSlider() {
   const TestimonilContent = [
@@ -20,16 +20,6 @@ export default function SimpleSlider() {
       delayAnimation: '',
     },
     {
-      Name: 'GEO',
-      desc: `The Community Builder`,
-      list: [
-        'Community Builder since 2017',
-        'MAYC Singapore community',
-        'Led growth for multiple protocols and projects',
-      ],
-      delayAnimation: '100',
-    },
-    {
       Name: 'WX',
       desc: `The Architect`,
       list: [
@@ -37,19 +27,9 @@ export default function SimpleSlider() {
         'Won awards at FWA, Cannes Lion, Creative Circle, Spikes and Webby',
         'Judge for The Crowbar Awards',
       ],
-      delayAnimation: '200',
+      delayAnimation: '100',
     },
-    {
-      Name: 'JW',
-      desc: `The Strategist`,
-      list: [
-        'Invested in 50 over crypto projects',
-        'Build multiple blockchain and NFT marketplaces',
-        'Previously tech entrepreneur with 2 exits',
-        'Raised 300mil to date for companies and projects',
-      ],
-      delayAnimation: '300',
-    },
+
     {
       Name: 'TONY',
       desc: `The Thinker`,
@@ -60,7 +40,7 @@ export default function SimpleSlider() {
         'Governance and security management of crypto funds',
         'Expertise in game theory, economic theory, cybersecurity, artificial intelligence and blockchain applications',
       ],
-      delayAnimation: '400',
+      delayAnimation: '200',
     },
     {
       Name: 'LES',
@@ -71,6 +51,27 @@ export default function SimpleSlider() {
         `Worked with and managed several artists including JLSM on previous projects 
       Experience in digital art design
       `,
+      ],
+      delayAnimation: '300',
+    },
+    {
+      Name: 'GEO',
+      desc: `The Community Builder`,
+      list: [
+        'Community Builder since 2017',
+        'MAYC Singapore community',
+        'Led growth for multiple protocols and projects',
+      ],
+      delayAnimation: '400',
+    },
+    {
+      Name: 'JW',
+      desc: `The Strategist`,
+      list: [
+        'Invested in 50 over crypto projects',
+        'Build multiple blockchain and NFT marketplaces',
+        'Previously tech entrepreneur with 2 exits',
+        'Raised 300mil to date for companies and projects',
       ],
       delayAnimation: '500',
     },
@@ -89,9 +90,7 @@ export default function SimpleSlider() {
               <span>{val.desc}</span>
               <ul>
                 {val.list.map((item, idx) => (
-                  <li>
-                    {item}
-                  </li>
+                  <li>{item}</li>
                 ))}
               </ul>
             </div>

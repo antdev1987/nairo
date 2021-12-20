@@ -1,7 +1,7 @@
 import React from 'react';
 import Testimonials from '../testimonial/TestimonialAnimation';
-import Services from '../service/ServiceAnimation';
-import Awards from '../award/AwardsAnimation';
+// import Services from '../service/ServiceAnimation';
+// import Awards from '../award/AwardsAnimation';
 
 const About = () => {
   return (
@@ -56,42 +56,43 @@ const About = () => {
             }}></div>
 
           {/* End separated */}
-          <div className="title">
+
+          {/* <div className="title">
             <h3>What I do?</h3>
           </div>
 
-          <Services />
+          <Services /> */}
 
           {/* End .row */}
 
           {/* separated */}
-          <div
+          {/* <div
             className="separated"
             style={{
               backgroundImage: `url(${process.env.PUBLIC_URL + 'img/border-dark.png'})`,
             }}></div>
           {/* End separated */}
 
-          <div className="title">
+          {/* <div className="title">
             <h3>Awards.</h3>
           </div>
 
-          <Awards />
+          <Awards /> */}
           {/* End Awards */}
 
           {/* separated */}
-          <div
+          {/* <div
             className="separated"
             style={{
               backgroundImage: `url(${process.env.PUBLIC_URL + 'img/border-dark.png'})`,
-            }}></div>
+            }}></div> */}
           {/* End separated */}
 
           <div className="title title-blue">
             <h3>Team & Advisors</h3>
           </div>
 
-            <Testimonials />
+          <Testimonials />
           {/* End Testimonaial */}
         </div>
       </section>

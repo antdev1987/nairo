@@ -4,7 +4,8 @@ import './rework.scss';
 import { Link } from 'react-router-dom';
 import ReactTooltip from 'react-tooltip';
 import { FiUser, FiBriefcase, FiFileText, FiPhoneOutgoing } from 'react-icons/fi';
-import { FaHome, FaBlog } from 'react-icons/fa';
+import { FaHome } from 'react-icons/fa';
+// FaBlog
 
 const Header = () => {
   const [click, setClick] = useState(false);
@@ -71,14 +72,14 @@ const Header = () => {
                 </ReactTooltip>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a className="nav-link" href="#blog" data-tip data-for="BLOG" onClick={handleClick}>
                 <FaBlog />
                 <ReactTooltip id="BLOG" place="top" type="dark" effect="float">
                   <span>Blog</span>
                 </ReactTooltip>
               </a>
-            </li>
+            </li> */}
             <li>
               <a className="nav-link" href="#contactus" data-tip data-for="CONTACT" onClick={handleClick}>
                 <FiPhoneOutgoing />
