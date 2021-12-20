@@ -1,4 +1,4 @@
-$px-theme: #50336D;
+$px-theme: #50336d;
 
 /* Section
 ---------------------*/
@@ -27,6 +27,7 @@ $px-theme: #50336D;
   @include down-sm {
     margin-bottom: 25px;
   }
+
   h3 {
     margin: 0;
     color: $px-white;
@@ -40,7 +41,7 @@ $px-theme: #50336D;
       color: $px-dark;
     }
     &:after {
-      content: "";
+      content: '';
       width: 45px;
       height: 45px;
       border-radius: 50%;
@@ -59,6 +60,14 @@ $px-theme: #50336D;
         top: -4px;
         left: 0;
       }
+    }
+  }
+}
+
+.title-pink {
+  h3 {
+    &::after {
+      background-color: #f45ea1;
     }
   }
 }
@@ -85,7 +94,7 @@ $px-theme: #50336D;
   position: relative;
   overflow: hidden;
   &:after {
-    content: "";
+    content: '';
     position: absolute;
     right: -20vh;
     bottom: -20vh;
@@ -258,7 +267,7 @@ $px-theme: #50336D;
           font-size: 20px;
         }
         &:after {
-          content: "";
+          content: '';
           position: absolute;
           top: 0;
           left: 0;
@@ -293,7 +302,7 @@ $px-theme: #50336D;
   @media screen and (max-width: 1024px) {
     background-position: 78% 100%;
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       left: 0;
       top: 0;
@@ -438,7 +447,7 @@ $px-theme: #50336D;
     background: $px-white;
   }
   &:before {
-    content: "";
+    content: '';
     position: absolute;
     top: -220px;
     left: -220px;
@@ -450,7 +459,7 @@ $px-theme: #50336D;
     transition: 0.5s ease-in-out;
   }
   &:after {
-    content: "";
+    content: '';
     position: absolute;
     top: -72px;
     left: -40px;
@@ -494,7 +503,7 @@ $px-theme: #50336D;
       border-radius: 50%;
     }
     &:after {
-      content: "";
+      content: '';
       width: 120%;
       left: -10%;
       top: -10%;
@@ -608,7 +617,7 @@ $px-theme: #50336D;
   .rb-left {
     min-height: 100%;
     @include up-sm {
-      border-right: 1px solid rgba($px-white, 0.05);
+      border-right: 1px solid #f45ea1;
       .theme-light & {
         border-right: 1px solid rgba($px-dark, 0.05);
       }
