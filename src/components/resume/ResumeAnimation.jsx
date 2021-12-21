@@ -91,11 +91,11 @@ const Resume = () => {
                     </div>
                   </div>
                   <div className="col-md-8 col-xl-9">
-                    <div className="rb-right">
+                    <ul className="rb-right">
                       {val.list.map((txt, idx) => (
-                        <p key={idx}>{txt.txt}</p>
+                        <li key={idx}>{txt.txt}</li>
                       ))}
-                    </div>
+                    </ul>
                   </div>
                 </div>
               </div>
