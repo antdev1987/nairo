@@ -41,7 +41,6 @@ const About = () => {
                       All MIRL™ will unlock exclusive access to seasonal physical wearables and privileges through our
                       IRL partners.
                     </p>
-                    <p>We want you to represent your digital presence, IRL.</p>
                   </div>
                 </div>
               </div>
