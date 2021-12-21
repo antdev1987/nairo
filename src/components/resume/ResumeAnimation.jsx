@@ -66,7 +66,7 @@ const resumeContent = [
 const Resume = () => {
   return (
     <>
-      <section id="runaway" className="section resumeSection">
+      <section id="runway" className="section resumeSection">
         <video autoPlay loop muted>
           <source src={video} type="video/mp4" />
         </video>
