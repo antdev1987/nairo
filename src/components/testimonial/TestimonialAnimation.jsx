@@ -2,6 +2,7 @@ import React from 'react';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './testimonialAnimation.scss';
+import { FaTwitter, FaInstagram, FaDiscord } from 'react-icons/fa';
 
 export default function SimpleSlider() {
   const TestimonilContent = [
@@ -18,6 +19,7 @@ export default function SimpleSlider() {
         'Commission for Singapore’s Largest Indoor Art Mural, GR.iD Mall',
       ],
       delayAnimation: '',
+      twitter: 'https://twitter.com/butilovetonap',
     },
     {
       Name: 'WX',
@@ -82,8 +84,21 @@ export default function SimpleSlider() {
       {TestimonilContent.map((val, i) => (
         <div key={i} data-aos="fade-up" data-aos-duration="1200" data-aos-delay={val.delayAnimation}>
           <div className="testimonial-01 media">
-            <div className="avatar">
+            <div className="av">
               <img src={`img/testimonial/Team_${val.Name}.png`} alt="review comments"></img>
+              <ul style={{ color: 'white' }}>
+                <li>
+                  <FaInstagram />
+                </li>
+                <li>
+                  <a href={val.twitter}>
+                    <FaTwitter />
+                  </a>
+                </li>
+                <li>
+                  <FaDiscord />
+                </li>
+              </ul>
             </div>
             <div className="media-body">
               <h6>{val.Name}</h6>
