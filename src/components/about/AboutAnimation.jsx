@@ -1,5 +1,4 @@
 import React from 'react';
-import Testimonials from '../testimonial/TestimonialAnimation';
 import './About.scss';
 // import Services from '../service/ServiceAnimation';
 // import Awards from '../award/AwardsAnimation';
@@ -56,47 +55,6 @@ const About = () => {
           style={{
             backgroundImage: `url(${process.env.PUBLIC_URL + 'img/border-dark.png'})`,
           }}></div>
-
-        {/* End separated */}
-        <div className="container">
-          {/* <div className="title">
-            <h3>What I do?</h3>
-          </div>
-
-          <Services /> */}
-
-          {/* End .row */}
-
-          {/* separated */}
-          {/* <div
-            className="separated"
-            style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL + 'img/border-dark.png'})`,
-            }}></div>
-          {/* End separated */}
-
-          {/* <div className="title">
-            <h3>Awards.</h3>
-          </div>
-
-          <Awards /> */}
-          {/* End Awards */}
-
-          {/* separated */}
-          {/* <div
-            className="separated"
-            style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL + 'img/border-dark.png'})`,
-            }}></div> */}
-          {/* End separated */}
-
-          <div className="title title-blue">
-            <h3>Team & Advisors</h3>
-          </div>
-
-          <Testimonials />
-          {/* End Testimonaial */}
-        </div>
       </section>
     </>
   );

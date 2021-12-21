@@ -46,6 +46,7 @@ img {
 a {
   color: $px-theme;
   transition: 0.3s;
+
   @include px-hover {
     color: darken($px-theme, 8%);
     text-decoration: none;

@@ -8,6 +8,7 @@ import Portfolio from '../../components/portfolio/PortfolioAnimation';
 // import Contact from '../../components/contact/Contact';
 // import ContactInfo from '../../components/contact/ContactInfo';
 // import Map from '../../components/contact/Map';
+import Testimonials from '../../components/testimonial/TestimonialAnimation';
 import Footer from '../../components/footer/FooterAnimation';
 import useDocumentTitle from '../../components/useDocumentTitle';
 
@@ -47,10 +48,20 @@ const HomeOne = () => {
       </section> */}
       {/* End Portfolio Section */}
 
+      <section className="section theme-light dark-bg">
+        <div className="container">
+          <div className="title title-blue">
+            <h3>Team & Advisors</h3>
+          </div>
+          <Testimonials />
+          {/* End Testimonaial */}
+        </div>
+      </section>
+
       <section id="contactus" className="section theme-light dark-bg">
         <div className="container">
-        <div className="title">
-            <h3>Contact Us.</h3>
+          <div className="title">
+            <h3>Contact Us</h3>
           </div>
           <p>
             Our email is <a href="mailto:g@mirl.club ">g@mirl.club </a>
