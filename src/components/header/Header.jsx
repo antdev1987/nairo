@@ -37,7 +37,7 @@ const Header = () => {
 
           <Scrollspy
             className="nav nav-menu"
-            items={['home', 'about', 'resume', 'work', 'blog', 'contactus']}
+            items={['home', 'about', 'runaway', 'gallery', 'contactus']}
             currentClassName="active"
             offset={-30}>
             <li>
@@ -57,18 +57,18 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a className="nav-link" href="#resume" data-tip data-for="RESUME" onClick={handleClick}>
+              <a className="nav-link" href="#runaway" data-tip data-for="RUNAWAY" onClick={handleClick}>
                 <FiFileText />
-                <ReactTooltip id="RESUME" place="top" type="dark" effect="float">
-                  <span>Resume</span>
+                <ReactTooltip id="RUNAWAY" place="top" type="dark" effect="float">
+                  <span>runaway</span>
                 </ReactTooltip>
               </a>
             </li>
             <li>
-              <a className="nav-link" href="#work" data-tip data-for="WORK" onClick={handleClick}>
+              <a className="nav-link" href="#gallery" data-tip data-for="GALLERY" onClick={handleClick}>
                 <FiBriefcase />
-                <ReactTooltip id="WORK" place="top" type="dark" effect="float">
-                  <span>Work</span>
+                <ReactTooltip id="GALLERY" place="top" type="dark" effect="float">
+                  <span>Gallery</span>
                 </ReactTooltip>
               </a>
             </li>
