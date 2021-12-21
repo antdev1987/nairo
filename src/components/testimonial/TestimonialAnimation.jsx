@@ -43,7 +43,7 @@ export default function SimpleSlider() {
       delayAnimation: '200',
     },
     {
-      Name: 'LES',
+      Name: 'MISLED LOTUS',
       desc: `The Terraformer`,
       list: [
         'Early bitcoin investor',
@@ -65,7 +65,7 @@ export default function SimpleSlider() {
       delayAnimation: '400',
     },
     {
-      Name: 'JW',
+      Name: 'TUM',
       desc: `The Strategist`,
       list: [
         'Invested in 50 over crypto projects',

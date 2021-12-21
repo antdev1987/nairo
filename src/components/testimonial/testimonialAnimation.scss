@@ -11,8 +11,11 @@
   .testimonial-01 {
     height: 100%;
     color: white;
-    padding: 15px 10px;
 
+    @media (max-width: 500px){
+      padding-top: 40px;
+    }
+    
     .avatar {
       margin-right: 50px;
     }
