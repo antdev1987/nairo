@@ -1,6 +1,5 @@
 import React from 'react';
 import video from './video.mp4';
-import './resume.scss';
 // import Skills from '../skills/Skills';
 
 const resumeContent = [
@@ -66,11 +65,11 @@ const resumeContent = [
 const Resume = () => {
   return (
     <>
-      <section id="runway" className="section resumeSection">
+      <section id="runway" className="section video">
         <video autoPlay loop muted>
           <source src={video} type="video/mp4" />
         </video>
-        <div className="container" style={{padding: "100px 10px"}}>
+        <div className="container">
           <div className="title title-pink">
             <h3>Runway</h3>
           </div>
