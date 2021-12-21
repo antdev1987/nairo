@@ -60,7 +60,7 @@ const HomeOne = () => {
 
       <section id="contactus" className="section theme-light dark-bg">
         <div className="container">
-          <div className="title">
+          <div className="title title-green">
             <h3>Contact Us</h3>
           </div>
           <p>

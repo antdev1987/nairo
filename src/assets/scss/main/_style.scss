@@ -79,6 +79,13 @@ $px-theme: #50336d;
     }
   }
 }
+.title-green {
+  h3 {
+    &::after {
+      background-color: greenyellow !important;
+    }
+  }
+}
 
 .separated {
   padding-top: 80px;
