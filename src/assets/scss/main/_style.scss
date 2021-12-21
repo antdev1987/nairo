@@ -5,6 +5,7 @@ $px-theme: #50336d;
 .section {
   padding: 100px 0;
   position: relative;
+  overflow: hidden;
   @include down-md {
     padding-top: 80px;
     padding-bottom: 80px;
