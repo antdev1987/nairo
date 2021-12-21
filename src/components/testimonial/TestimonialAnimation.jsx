@@ -49,8 +49,8 @@ export default function SimpleSlider() {
         'Early bitcoin investor',
         'Experience in program management',
         `Worked with and managed several artists including JLSM on previous projects 
-      Experience in digital art design
       `,
+        'Experience in digital art design',
       ],
       delayAnimation: '300',
     },
