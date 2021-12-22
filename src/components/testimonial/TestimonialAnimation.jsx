@@ -96,15 +96,17 @@ export default function SimpleSlider() {
                     <FaTwitter />
                   </a>
                 </li>
-                <li>
-                  <a href={val.web}>
-                    <i class="fas fa-globe"></i>
-                  </a>
-                </li>
+                {val.web && (
+                  <li>
+                    <a href={val.web}>
+                      <i class="fas fa-globe"></i>
+                    </a>
+                  </li>
+                )}
               </ul>
             </div>
             <div className="media-body">
-              <main className='media-content'>
+              <main className="media-content">
                 <h6>{val.Name}</h6>
                 <span>{val.desc}</span>
               </main>

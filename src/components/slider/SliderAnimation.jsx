@@ -27,11 +27,11 @@ const Slider = () => {
                   <i class="fab fa-twitter fa-2x"></i>
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="tc">
                   <i class="fab fa-discord fa-2x"></i>
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
