@@ -1,17 +1,9 @@
 import React from 'react';
-import video from "./video.mp4"
+import video from './video.mp4';
 
 const sliderContent = {
-  welcome: (
-    <>
-      WELCOME <br></br> TO MIRL
-    </>
-  ),
-  description: (
-    <>
-      MIRL is the first decentralised fashion <br></br> brand born in the metaverse.
-    </>
-  ),
+  welcome: 'WELCOME TO MIRL',
+  description: 'MIRL is the first decentralised fashion brand born in the metaverse.',
 };
 
 const Slider = () => {
@@ -45,9 +37,9 @@ const Slider = () => {
         </div>
         {/* End hp-top-fixed */}
 
-        <div className="" style={{height: "100vh"}}>
+        <div className="" style={{ height: '100vh',paddingLeft: "10px"  }}>
           <div className="row full-screen">
-            <div className="flexcenter" style={{width: "50%"}}>
+            <div className="flexcenter" style={{ width: '70%', }}>
               <div className="type-box">
                 <h6 className="font-size-medium" data-aos="fade-up" data-aos-duration="1200">
                   Hello...
@@ -69,11 +61,6 @@ const Slider = () => {
           </div>
         </div>
         {/* End Container*/}
-        <div
-          className="hb-me"
-          style={{
-            background: `url('img/slider/Home Banner_2.jpg') bottom center / cover`,
-          }}></div>
       </section>
 
       {/* End Home Banner  */}
