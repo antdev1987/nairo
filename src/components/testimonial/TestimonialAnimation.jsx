@@ -2,7 +2,7 @@ import React from 'react';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './testimonialAnimation.scss';
-import { FaTwitter, FaInstagram, FaDiscord } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
 
 export default function SimpleSlider() {
   const TestimonilContent = [
@@ -20,6 +20,7 @@ export default function SimpleSlider() {
       ],
       delayAnimation: '',
       twitter: 'https://twitter.com/butilovetonap',
+      web: 'https://joannalsm.com/',
     },
     {
       Name: 'WX',
@@ -64,6 +65,7 @@ export default function SimpleSlider() {
         'MAYC Singapore community',
         'Led growth for multiple protocols and projects',
       ],
+      twitter: 'https://twitter.com/0xG30',
       delayAnimation: '400',
     },
     {
@@ -75,6 +77,8 @@ export default function SimpleSlider() {
         'Previously tech entrepreneur with 2 exits',
         'Raised 300mil to date for companies and projects',
       ],
+      twitter: 'https://twitter.com/epicsuperstar',
+      web: 'https://oncyber.io/mintable',
       delayAnimation: '500',
     },
   ];
@@ -88,15 +92,14 @@ export default function SimpleSlider() {
               <img src={`img/testimonial/Team_${val.Name}.png`} alt="review comments"></img>
               <ul style={{ color: 'white' }}>
                 <li>
-                  <FaInstagram />
-                </li>
-                <li>
                   <a href={val.twitter}>
                     <FaTwitter />
                   </a>
                 </li>
                 <li>
-                  <FaDiscord />
+                  <a href={val.web}>
+                    <i class="fas fa-globe"></i>
+                  </a>
                 </li>
               </ul>
             </div>

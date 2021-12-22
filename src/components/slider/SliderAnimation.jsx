@@ -1,4 +1,5 @@
 import React from 'react';
+import video from "./video.mp4"
 
 const sliderContent = {
   welcome: (
@@ -17,7 +18,10 @@ const Slider = () => {
   return (
     <>
       {/*  Home Banner */}
-      <section id="home" className="home-banner">
+      <section id="home" className="home-banner video">
+        <video autoPlay loop muted>
+          <source src={video} type="video/mp4" />
+        </video>
         <div className="hb-top-fixed d-flex">
           <div className="hb-lang">
             <ul className="nav">

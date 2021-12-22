@@ -12,9 +12,8 @@
     height: 100%;
     color: white;
 
-    @media (max-width: 500px) {
-      padding-top: 40px;
-    }
+    padding-top: 70px;
+    padding-bottom: 10px;
 
     .av {
       margin-right: 50px;
@@ -27,7 +26,8 @@
 
       ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 15px;
         list-style: none;
         margin: 0 auto;
         margin-top: 10px;
