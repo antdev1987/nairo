@@ -25,11 +25,7 @@ const Footer = () => {
 
         <div className="col-md-6 my-2 text-center text-md-end">
           <p>
-            © {new Date().getFullYear()} copyright{' '}
-            <a href="https://themeforest.net/user/ib-themes/portfolio" target="_blank" rel="noreferrer">
-              ib-themes
-            </a>{' '}
-            all right reserved
+            If you’re still reading this, <span style={{ color: '#EF9037' }}>WAGMI</span>.
           </p>
         </div>
         {/* End .col */}

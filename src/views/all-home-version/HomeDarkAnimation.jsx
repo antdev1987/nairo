@@ -63,9 +63,7 @@ const HomeOne = () => {
           <div className="title title-green">
             <h3>Contact Us</h3>
           </div>
-          <p>
-            Our email is <a href="mailto:g@mirl.club ">g@mirl.club </a>
-          </p>
+          <a href="mailto:g@mirl.club ">g@mirl.club </a>
         </div>
       </section>
       {/* End Contact Section */}

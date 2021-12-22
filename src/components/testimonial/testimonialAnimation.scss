@@ -4,16 +4,28 @@
   grid-auto-rows: minmax(330px, 1fr);
   gap: 20px;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1024px) {
     grid-template-columns: repeat(1, 1fr);
   }
 
   .testimonial-01 {
     height: 100%;
     color: white;
-
     padding-top: 70px;
     padding-bottom: 10px;
+    position: relative;
+
+    @media (max-width: 1024px) {
+      flex-direction: column;
+    }
+
+    .media-content {
+      @media (max-width: 1024px) {
+        position: absolute;
+        left: 200px;
+        top: 20%;
+      }
+    }
 
     .av {
       margin-right: 50px;

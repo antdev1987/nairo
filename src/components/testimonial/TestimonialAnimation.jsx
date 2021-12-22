@@ -104,8 +104,10 @@ export default function SimpleSlider() {
               </ul>
             </div>
             <div className="media-body">
-              <h6>{val.Name}</h6>
-              <span>{val.desc}</span>
+              <main className='media-content'>
+                <h6>{val.Name}</h6>
+                <span>{val.desc}</span>
+              </main>
               <ul>
                 {val.list.map((item, idx) => (
                   <li>{item}</li>
