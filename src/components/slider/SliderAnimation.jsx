@@ -22,7 +22,7 @@ const Slider = () => {
         <video autoPlay loop muted>
           <source src={video} type="video/mp4" />
         </video>
-        <div className="hb-top-fixed d-flex">
+        <div className="hb-top-fixed d-flex ">
           <div className="hb-lang">
             <ul className="nav">
               <li>
@@ -45,9 +45,9 @@ const Slider = () => {
         </div>
         {/* End hp-top-fixed */}
 
-        <div className="container">
-          <div className="row full-screen align-items-center">
-            <div className="col-lg-7">
+        <div className="" style={{height: "100vh"}}>
+          <div className="row full-screen">
+            <div className="flexcenter" style={{width: "50%"}}>
               <div className="type-box">
                 <h6 className="font-size-medium" data-aos="fade-up" data-aos-duration="1200">
                   Hello...
