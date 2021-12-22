@@ -2,7 +2,6 @@ import React from 'react';
 import { Tabs, TabPanel } from 'react-tabs';
 import SimpleReactLightbox from 'simple-react-lightbox';
 import { SRLWrapper } from 'simple-react-lightbox';
-import { FiLink } from 'react-icons/fi';
 import Masonry from 'react-masonry-css';
 
 const breakpointColumnsObj = {
@@ -20,47 +19,38 @@ const tabListContent = [
       {
         img: 'Gallery_1_400x550.jpg',
         delayAnimation: '',
-        portfolioLink: 'https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template',
       },
       {
         img: 'Gallery_2_400x400.gif',
         delayAnimation: '100',
-        portfolioLink: 'https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template',
       },
       {
         img: 'Gallery_3_400x700.jpg',
         delayAnimation: '200',
-        portfolioLink: 'https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template',
       },
       {
         img: 'Gallery_4_400x400.jpg',
         delayAnimation: '0',
-        portfolioLink: 'https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template',
       },
       {
         img: 'Gallery_5_400x700.jpg',
         delayAnimation: '100',
-        portfolioLink: 'https://dribbble.com/shots/16529158-Waxon-Personal-Portfolio-VueJS-Template-RTL',
       },
       {
         img: 'Gallery_6_400x550.jpg',
         delayAnimation: '200',
-        portfolioLink: 'https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template',
       },
       {
         img: 'Gallery_7_400x700.jpg',
         delayAnimation: '0',
-        portfolioLink: 'https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template',
       },
       {
         img: 'Gallery_8_400x550.jpg',
         delayAnimation: '100',
-        portfolioLink: 'https://www.behance.net/gallery/128278341/Imroz-Vue-JS-Creative-Agency-Portfolio-Template',
       },
       {
         img: 'Gallery_9_400x400.jpg',
         delayAnimation: '200',
-        portfolioLink: 'https://www.facebook.com/ibthemes',
       },
     ],
   },
@@ -240,11 +230,6 @@ const Portfolio = () => {
                           <a href={`img/portfolio/${val.img}`} className="gallery-link">
                             <img src={`img/portfolio/${val.img}`} alt={val.alterText} />
                           </a>
-                          {/* End gallery link */}
-                          <a className="portfolio-icon" href={val.portfolioLink} target="_blank" rel="noreferrer">
-                            <FiLink />
-                          </a>
-                          {/* End .portfolio-icon */}
                         </div>
                       </div>
                     ))}
