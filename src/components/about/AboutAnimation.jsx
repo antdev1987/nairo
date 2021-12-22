@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.scss';
-import video from "./space.mp4"
 // import Services from '../service/ServiceAnimation';
 // import Awards from '../award/AwardsAnimation';
 
@@ -8,10 +7,8 @@ const About = () => {
   return (
     <>
       <section id="about" className="section theme-light dark-bg">
-        <div className="flexcenter aboutSection video">
-        <video autoPlay loop muted>
-          <source src={video} type="video/mp4" />
-        </video>
+        <div className="flexcenter aboutSection ">
+        
           <div className="container">
             <div className="row align-items-center justify-content-center">
               <div className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="1200">
